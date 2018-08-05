@@ -11,12 +11,12 @@
 [info] Resolving org.scala-sbt#sbt;0.13.13 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.13 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.13
-[debug] no default cache defined: set to C:\Users\pallab.panda\.ivy2\cache
 [debug] 	found org.scala-sbt#sbt;0.13.13 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.13->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
+[debug] no default cache defined: set to C:\Users\pallab.panda\.ivy2\cache
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
@@ -1783,9 +1783,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 1011ms :: artifacts dl 46ms
+[debug] :: resolution report :: resolve 1198ms :: artifacts dl 44ms
 [debug] 	report for default#datapipeline_demo$sbt_2.10;0.1 default produced in D:\Sid-SparkScala\workspace\datapipeline_demo\target\resolution-cache\reports\default-datapipeline_demo$sbt_2.10-default.xml
-[debug] 	resolve done (1011ms resolve - 46ms download)
+[debug] 	resolve done (1198ms resolve - 44ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#datapipeline_demo$sources_2.10;0.1
 [debug] 	confs: [default]
@@ -2490,6 +2490,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 187ms :: artifacts dl 47ms
+[debug] :: resolution report :: resolve 183ms :: artifacts dl 45ms
 [debug] 	report for default#datapipeline_demo$sources_2.10;0.1 default produced in D:\Sid-SparkScala\workspace\datapipeline_demo\target\resolution-cache\reports\default-datapipeline_demo$sources_2.10-default.xml
-[debug] 	resolve done (187ms resolve - 47ms download)
+[debug] 	resolve done (183ms resolve - 45ms download)

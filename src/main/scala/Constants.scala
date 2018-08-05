@@ -8,6 +8,7 @@ object Constants {
   val redShiftUrl = "url"
   val Redshift_Sftp_OL_TRANSACTION_SYNC_tbl="Stg_Sftp_OL_TRANSACTION_SYNC_Table"
   val Redshift_Ora_TRANSACTION_SYNC_tbl="Stg_Oracle_TRANSACTIONSYNC_Table"
+  val Redshift_s3_1cpTable="stg_1cpTable"
   val tempdir ="tempdir"
   val oracledriver="driver"
   val oracleurl="url"

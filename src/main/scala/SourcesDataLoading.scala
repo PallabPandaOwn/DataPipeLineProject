@@ -15,8 +15,8 @@ object SourcesDataLoading {
     //SparkSession creation
 
     val sparksession = SparkSession.builder().master("local[*]").appName("DataPipelineDemo").getOrCreate()
-    sparksession.sparkContext.hadoopConfiguration.set("fs.s3n.awsAccessKeyId", "AKIAJMKPMQABLQT34EXA")
-    sparksession.sparkContext.hadoopConfiguration.set("fs.s3n.awsSecretAccessKey", "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")
+    sparksession.sparkContext.hadoopConfiguration.set("fs.s3n.awsAccessKeyId", "")
+    sparksession.sparkContext.hadoopConfiguration.set("fs.s3n.awsSecretAccessKey", "")
 
 
     //Source Data Reading
